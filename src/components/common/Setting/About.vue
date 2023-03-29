@@ -8,7 +8,6 @@ import { useAuthStore } from '@/store'
 interface ConfigState {
   timeoutMs?: number
   apiModel?: string
-  balance?: string
   reverseProxy?: string
 
 }
@@ -53,9 +52,6 @@ onMounted(() => {
       </p>
  </div>
       <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
-      <p v-if="isChatGPTAPI">
-        {{ $t("setting.balance") }}：{{ config?.balance ?? '-' }}
-      </p>
       <p v-if="!isChatGPTAPI">
         {{ $t("setting.reverseProxy") }}：{{ config?.reverseProxy ?? '-' }}
       </p>
