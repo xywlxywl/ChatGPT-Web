@@ -46,18 +46,12 @@ onMounted(() => {
       </h2>
       <div class="p-2 space-y-2 rounded-md bg-neutral-100 dark:bg-neutral-700">
         <p>
-          此项目开源于
-          <a
-            class="text-blue-600 dark:text-blue-500"
-            href="https://github.com/Chanzhaoyu/chatgpt-web"
-            target="_blank"
-          >
-            Github
-          </a>
-          ，免费且基于 MIT 协议，没有任何形式的付费行为！
+          超级一休-言之有理，是一个最新的AI对话程序，PC端和手机端自适应响应！
         </p>
         <p>
-          如果你觉得此项目对你有帮助，请在 Github 帮我点个 Star 或者给予一点赞助，谢谢！
+          超级一休，让你轻松享受AI科技带来的智能体验！不仅可以帮你快速准确写出论文、律师函、直播话术、作文、代码，还可以秒写演讲稿、工作报告、入职申请等，让你的工作变得更加轻松高效！
+					</p>
+					它将彻底改变我们的生活习惯，让你的生活更加轻松，让你的工作变得更加高效！让我们一起感受超级一休给我们带来的新鲜体验吧！
         </p>
       </div>
       <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
