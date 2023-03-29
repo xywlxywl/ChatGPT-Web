@@ -40,8 +40,8 @@ onMounted(() => {
   <NSpin :show="loading">
     <div class="p-4 space-y-4">
       <h2 class="text-xl font-bold">
-        客服微信： wxid_4ta1x11bv57v12
-	
+      客服微信：wxid_4ta1x11bv57v12<p>
+			Version - {{ pkg.version }}
       </h2>
       <div class="p-2 space-y-2 rounded-md bg-neutral-100 dark:bg-neutral-700">
         <p>
