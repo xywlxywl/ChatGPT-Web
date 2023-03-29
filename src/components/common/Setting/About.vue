@@ -53,7 +53,7 @@ onMounted(() => {
 					它将彻底改变我们的生活习惯，让你的生活更加轻松，让你的工作变得更加高效！让我们一起感受超级一休给我们带来的新鲜体验吧！
       </p>
       </div>
-      <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
+/*      <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
       <p v-if="isChatGPTAPI">
         {{ $t("setting.balance") }}：{{ config?.balance ?? '-' }}
       </p>
@@ -64,5 +64,6 @@ onMounted(() => {
       <p>{{ $t("setting.socks") }}：{{ config?.socksProxy ?? '-' }}</p>
       <p>{{ $t("setting.httpsProxy") }}：{{ config?.httpsProxy ?? '-' }}</p>
     </div>
+*/
   </NSpin>
 </template>
