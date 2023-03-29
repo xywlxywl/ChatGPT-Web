@@ -7,10 +7,7 @@ import { useAuthStore } from '@/store'
 
 interface ConfigState {
   timeoutMs?: number
-  reverseProxy?: string
   apiModel?: string
-  socksProxy?: string
-  httpsProxy?: string
   balance?: string
 }
 
@@ -53,9 +50,7 @@ onMounted(() => {
 					它将彻底改变我们的生活习惯，让你的生活更加轻松，让你的工作变得更加高效！让我们一起感受超级一休给我们带来的新鲜体验吧！
       </p>
  </div>
-      <p>{{ $t("setting.timeout") }}：{{ config?.timeoutMs ?? '-' }}</p>
-      <p>{{ $t("setting.socks") }}：{{ config?.socksProxy ?? '-' }}</p>
-      <p>{{ $t("setting.httpsProxy") }}：{{ config?.httpsProxy ?? '-' }}</p>
+      <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
     </div>
   </NSpin>
 </template>
